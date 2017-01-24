@@ -1,5 +1,7 @@
 ---
 applications:
-- name:    hello-node
-  host:    hello-node
-  memory:  128M
+- services:
+  - Mapbox Maps-zu
+- name:    my-first-mapbox-app
+  command: node app.js
+
